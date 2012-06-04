@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sip-app>
+    <app-name>com.orange.uklab.callmanagement.CallManagerServlet</app-name>
+    <display-name>Call Manager Servlet</display-name>
+    <description>Call Manager Servlet</description>
+    <servlet>
+        <servlet-name>CallManagerServlet</servlet-name>
+        <display-name>CallManagerServlet</display-name>
+        <description>Call Manager Servlet</description>
+        <servlet-class>
+            com.orange.uklab.callmanagement.CallManagerServlet
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <listener>
+        <listener-class>
+            com.orange.uklab.callmanagement.CallManagerServlet
+        </listener-class>
+    </listener>
+</sip-app>
